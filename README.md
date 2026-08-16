@@ -4,7 +4,7 @@ An interactive music production app where tracks live as rotating 3D cubes — e
 
 Musical Cubes is the cube instrument UI itself. It was originally developed as part of Musical Realms, an earlier prototype exploring chakra-inspired sonic worlds — the cube component was extracted and refined into this standalone project.
 
-**Live demo:** [paulvisciano.github.io/musical-cubes](https://paulvisciano.github.io/musical-cubes/#/)
+**Live demo:** [musical-cubes.vercel.app](https://musical-cubes.vercel.app)
 
 ---
 
