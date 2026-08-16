@@ -1,5 +1,9 @@
 # Musical Cubes
 
+<p align="center">
+  <img src="https://pub-9466bb5132e74aeba333004ad0c21f21.r2.dev/musical-cubes/musical-cubes-phone-mockup.jpg" alt="Musical Cubes on iPhone — Best Feelings track" width="320" />
+</p>
+
 > Part of **[Sci-Fi Labs](https://github.com/paulvisciano)** — spatial apps for web, mobile, and XR.  
 > [Where is Paul?](https://paulvisciano.github.io/) · [Knowledge Graph](https://github.com/paulvisciano/knowledge-graph) · [Musical Cubes](https://musical-cubes.vercel.app)
 
@@ -10,10 +14,6 @@ A Sci-Fi app: 3D instruments designed to feel native on the web and on mobile, w
 Musical Cubes is the cube instrument UI itself. It was originally developed as part of Musical Realms, an earlier prototype exploring chakra-inspired sonic worlds — the cube component was extracted and refined into this standalone project.
 
 **Live demo:** [musical-cubes.vercel.app](https://musical-cubes.vercel.app)
-
-<p align="center">
-  <img src="https://pub-9466bb5132e74aeba333004ad0c21f21.r2.dev/musical-cubes/musical-cubes-phone-mockup.jpg" alt="Musical Cubes on iPhone — Best Feelings track" width="320" />
-</p>
 
 ---
 
