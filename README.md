@@ -2,6 +2,8 @@
 
 An interactive music production app where tracks live as rotating 3D cubes — each face is an instrument stem you can play, loop, and sync in real time. Built as a cross-platform PWA and native app, it turns music making into something tactile and visual rather than a timeline-and-tracks DAW.
 
+Musical Cubes is the cube instrument UI itself. It was originally developed as part of Musical Realms, an earlier prototype exploring chakra-inspired sonic worlds — the cube component was extracted and refined into this standalone project.
+
 **Live demo:** [paulvisciano.github.io/musical-cubes](https://paulvisciano.github.io/musical-cubes/#/)
 
 ---
@@ -11,9 +13,6 @@ An interactive music production app where tracks live as rotating 3D cubes — e
 - **3D cube instruments** — Each track is a Swiper cube with a face for every stem (piano, keys, brass, vocal, bass, guitar, drums). Rotate the cube to switch instruments; each face has its own WaveSurfer waveform you can click to play, loop, and scrub.
 - **Sync across faces** — All stems in a cube share a playhead position, so you can layer instruments and they stay in time. Toggle sync off to free a face into its own independent loop.
 - **Track discovery** — A Node script (`scripts/discoverTracks.js`) walks `public/assets/sounds/musicalCube/tracks/` at build time, auto-generating a typed track registry so new packs just work — drop a folder of WAVs in, run `npm start`, and it appears in the picker.
-- **Chakra-inspired design** — Colors, instrument mappings, and spatial layouts draw from the seven-chakra system, giving each realm its own visual and sonic identity.
-- **Background mixer** — A side menu houses ambient background loops (lofi, atmospheric vocals, sky piano, harp) with per-track volume sliders, so you can build a bed under your cube performance.
-- **Realm system** — The app is structured around swipeable "Realms" (Musical Cubes, Soul, Tibetan, Athmospheres Dawdio, Native American), each a self-contained sonic world with its own component tree.
 - **Cross-platform** — Ionic + Capacitor means the same codebase runs as a web app, a deployable PWA (GitHub Pages), and a native iOS/Android app with haptics and status-bar integration.
 
 The goal is a music tool that feels like playing with sound, not operating software.
@@ -91,20 +90,14 @@ musical-cubes/
 │   ├── components/
 │   │   ├── musicalCube/      # Cube instrument (cube, sides, toolbar, picker)
 │   │   ├── backgroundTracks/ # Ambient mixer side menu
-│   │   ├── chakraCenter/     # Chakra layout center
-│   │   ├── chakraShape/      # Chakra visual shapes
 │   │   ├── notesVisualizer/  # Note visualization
 │   │   └── soundPlayer/       # Core sound playback
 │   ├── pages/
-│   │   └── realms/           # Sonic worlds (swipeable)
-│   │       ├── musicalCubes/ # Main cube realm
-│   │       ├── soul/
-│   │       ├── tibetan/
-│   │       └── athmospheresDawdio/
+│   │   └── realms/           # Realm shell (from Musical Realms prototype)
+│   │       └── musicalCubes/ # Main cube realm
 │   ├── instruments/          # Instrument detection & mapping
-│   ├── colors/              # Chakra color system
-│   ├── store/               # Redux (instrument + background track slices)
-│   └── theme/               # Global styles
+│   ├── store/                # Redux (instrument + background track slices)
+│   └── theme/                # Global styles
 ├── capacitor.config.ts       # Native mobile config
 └── package.json
 ```
