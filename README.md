@@ -11,6 +11,10 @@ Musical Cubes is the cube instrument UI itself. It was originally developed as p
 
 **Live demo:** [musical-cubes.vercel.app](https://musical-cubes.vercel.app)
 
+<p align="center">
+  <img src="public/assets/screenshots/musical-cubes-phone.jpg" alt="Musical Cubes on iPhone — Best Feelings track" width="320" />
+</p>
+
 ---
 
 ## What it is
@@ -81,6 +85,7 @@ musical-cubes/
 ├── public/
 │   └── assets/
 │       ├── icon/              # App + instrument icons
+│       ├── screenshots/       # App screenshots & mockups
 │       └── sounds/
 │           └── musicalCube/
 │               └── tracks/    # Track packs (each folder = one track)
