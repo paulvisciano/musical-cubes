@@ -1,6 +1,11 @@
 # Musical Cubes
 
+> Part of **[Sci-Fi Labs](https://github.com/paulvisciano)** — spatial apps for web, mobile, and XR.  
+> [Where is Paul?](https://paulvisciano.github.io/) · [Knowledge Graph](https://github.com/paulvisciano/knowledge-graph) · [Musical Cubes](https://musical-cubes.vercel.app)
+
 An interactive music production app where tracks live as rotating 3D cubes — each face is an instrument stem you can play, loop, and sync in real time. Built as a cross-platform PWA and native app, it turns music making into something tactile and visual rather than a timeline-and-tracks DAW.
+
+A Sci-Fi app: 3D instruments designed to feel native on the web and on mobile, with spatial interaction as the foundation for immersive environments.
 
 Musical Cubes is the cube instrument UI itself. It was originally developed as part of Musical Realms, an earlier prototype exploring chakra-inspired sonic worlds — the cube component was extracted and refined into this standalone project.
 
@@ -128,8 +133,8 @@ musical-cubes/
 
 ## Topics
 
-`music` · `music-production`
+`music` · `music-production` · `sci-fi-labs`
 
 ---
 
-**Built by** [Paul Visciano](https://paulvisciano.vercel.app/)
+**Built by** [Paul Visciano](https://paulvisciano.vercel.app/) · **Sci-Fi Labs**
