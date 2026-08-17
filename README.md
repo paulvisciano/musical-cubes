@@ -23,6 +23,9 @@ Musical Cubes is the cube instrument UI itself. It was originally developed as p
 - **Sync across faces** — All stems in a cube share a playhead position, so you can layer instruments and they stay in time. Toggle sync off to free a face into its own independent loop.
 - **Track discovery** — A Node script (`scripts/discoverTracks.js`) walks `public/assets/sounds/musicalCube/tracks/` at build time, auto-generating a typed track registry so new packs just work — drop a folder of WAVs in, run `npm start`, and it appears in the picker.
 - **Cross-platform** — Ionic + Capacitor means the same codebase runs as a web app, a deployable PWA (GitHub Pages), and a native iOS/Android app with haptics and status-bar integration.
+- **Accessible by design** — the UI is simple enough that once you learn it, you know it forever. No dense control panels, no steep DAW learning curve — turn a cube, hear the change, layer sounds.
+
+Most music production tools are intimidating for beginners: endless controls on screen, complex workflows, a high barrier to entry. Musical Cubes is built so anyone can start making music without studying software first. Learn once — use it for life.
 
 The goal is a music tool that feels like playing with sound, not operating software.
 
