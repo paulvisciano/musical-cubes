@@ -36,7 +36,11 @@ The cube UI already scales cleanly into 3D space — the same way the other Sci-
 - **Publishable cubes** — a cube becomes a distribution unit. You can publish a single stem (just the vocals, just the brass) or an entire cube (a set of instruments that already work well together).
 - **A sample marketplace built around relationships** — inspired by tools like Splice, but oriented around coherent musical packages instead of isolated files. Buy a vocal and drop it onto any cube, or buy a full cube and start playing immediately.
 
-In short: the instrument becomes the package, and the package becomes something you can share, sell, and combine in space.
+The broader goal is to empower creators. Today artists often earn the least while labels and platforms take most of the revenue and own the rights. Musical Cubes is designed to cut out those middlemen so listeners and other creators can pay artists directly.
+
+A musician records a vocal or an instrument stem and publishes it. Someone else builds a cube from those stems. From there a song gets made. Everyone in the chain is attributed. When a track that uses a stem becomes popular, the original performer of that stem receives the largest share — because learning an instrument and playing it well is harder than arranging existing samples. Remixers still earn; the people who created the performances earn more.
+
+Compensation and credit are baked into the ecosystem, not added later. The instrument becomes the package, and the package carries both the music and the value.
 
 ---
 
