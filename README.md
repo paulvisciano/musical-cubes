@@ -28,6 +28,18 @@ The goal is a music tool that feels like playing with sound, not operating softw
 
 ---
 
+## Vision
+
+The cube UI already scales cleanly into 3D space — the same way the other Sci-Fi Labs apps do. That opens a clear path:
+
+- **Multiple cubes in one environment** — several instruments floating together, all staying in sync, so you can build full songs by arranging cubes rather than tracks.
+- **Publishable cubes** — a cube becomes a distribution unit. You can publish a single stem (just the vocals, just the brass) or an entire cube (a set of instruments that already work well together).
+- **A sample marketplace built around relationships** — inspired by tools like Splice, but oriented around coherent musical packages instead of isolated files. Buy a vocal and drop it onto any cube, or buy a full cube and start playing immediately.
+
+In short: the instrument becomes the package, and the package becomes something you can share, sell, and combine in space.
+
+---
+
 ## Architecture (high level)
 
 | Layer | What runs |
