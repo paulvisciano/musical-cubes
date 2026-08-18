@@ -3,10 +3,6 @@
   "buildCommand": "npm run build",
   "outputDirectory": "build",
   "framework": null,
-  "rewrites": [
-    { "source": "/apps/musical-cubes/:path*", "destination": "/:path*" },
-    { "source": "/apps/musical-cubes", "destination": "/" }
-  ],
   "headers": [
     {
       "source": "/(.*\\.(?:css|js|wav|svg|png|ico|json))",
