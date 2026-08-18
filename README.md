@@ -5,7 +5,7 @@
 </p>
 
 > Part of **[Sci-Fi Labs](https://github.com/paulvisciano)** — spatial apps for web, mobile, and XR.  
-> [Where is Paul?](https://paulvisciano.github.io/) · [Knowledge Graph](https://github.com/paulvisciano/knowledge-graph) · [Musical Cubes](https://musical-cubes.vercel.app)
+> [Where is Paul?](https://paulvisciano.github.io/) · [Knowledge Graph](https://github.com/paulvisciano/knowledge-graph) · [Musical Cubes](https://musical-cubes.vercel.app) · [Neuro Graph](https://paulvisciano.com/apps/neuro-graph)
 
 An interactive music production app where tracks live as rotating 3D cubes — each face is an instrument stem you can play, loop, and sync in real time. Built as a cross-platform PWA and native app, it turns music making into something tactile and visual rather than a timeline-and-tracks DAW.
 
