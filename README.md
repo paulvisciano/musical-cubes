@@ -4,16 +4,14 @@
   <img src="https://pub-9466bb5132e74aeba333004ad0c21f21.r2.dev/musical-cubes/musical-cubes-phone-mockup.jpg" alt="Musical Cubes on iPhone — Best Feelings track" width="320" />
 </p>
 
-> Part of **[Sci-Fi Labs](https://github.com/paulvisciano)** — spatial apps for web, mobile, and XR.  
-> [Where is Paul?](https://paulvisciano.github.io/) · [Knowledge Graph](https://github.com/paulvisciano/knowledge-graph) · [Musical Cubes](https://musical-cubes.vercel.app) · [Neuro Graph](https://paulvisciano.com/apps/neuro-graph)
+> Part of **[Sci-Fi Labs](https://github.com/paulvisciano)** — spatial web apps.  
+> [Where is Paul?](https://paulvisciano.com/apps/where-is-paul/) · [Musical Cubes](https://paulvisciano.com/apps/musical-cubes) · [Neuro Graph](https://paulvisciano.com/apps/neuro-graph)
 
-An interactive music production app where tracks live as rotating 3D cubes — each face is an instrument stem you can play, loop, and sync in real time. Built as a cross-platform PWA and native app, it turns music making into something tactile and visual rather than a timeline-and-tracks DAW.
-
-A Sci-Fi app: 3D instruments designed to feel native on the web and on mobile, with spatial interaction as the foundation for immersive environments.
+A spatial web app: tracks live as rotating 3D cubes — each face is an instrument stem you can play, loop, and sync in real time. Same URL on web and phone.
 
 Musical Cubes is the cube instrument UI itself. It was originally developed as part of Musical Realms, an earlier prototype exploring chakra-inspired sonic worlds — the cube component was extracted and refined into this standalone project.
 
-**Live demo:** [musical-cubes.vercel.app](https://musical-cubes.vercel.app)
+**Live:** [paulvisciano.com/apps/musical-cubes](https://paulvisciano.com/apps/musical-cubes)
 
 ---
 
@@ -22,7 +20,7 @@ Musical Cubes is the cube instrument UI itself. It was originally developed as p
 - **3D cube instruments** — Each track is a Swiper cube with a face for every stem (piano, keys, brass, vocal, bass, guitar, drums). Rotate the cube to switch instruments; each face has its own WaveSurfer waveform you can click to play, loop, and scrub.
 - **Sync across faces** — All stems in a cube share a playhead position, so you can layer instruments and they stay in time. Toggle sync off to free a face into its own independent loop.
 - **Track discovery** — A Node script (`scripts/discoverTracks.js`) walks `public/assets/sounds/musicalCube/tracks/` at build time, auto-generating a typed track registry so new packs just work — drop a folder of WAVs in, run `npm start`, and it appears in the picker.
-- **Cross-platform** — Ionic + Capacitor means the same codebase runs as a web app, a deployable PWA (GitHub Pages), and a native iOS/Android app with haptics and status-bar integration.
+- **Cross-platform** — Ionic + Capacitor means the same codebase runs as a web app, a deployable PWA, and a native iOS/Android app with haptics and status-bar integration.
 - **Accessible by design** — the UI is simple enough that once you learn it, you know it forever. No dense control panels, no steep DAW learning curve — turn a cube, hear the change, layer sounds.
 
 Most music production tools are intimidating for beginners: endless controls on screen, complex workflows, a high barrier to entry. Musical Cubes is built so anyone can start making music without studying software first. Learn once — use it for life.
@@ -33,7 +31,7 @@ The goal is a music tool that feels like playing with sound, not operating softw
 
 ## Vision
 
-The cube UI already scales cleanly into 3D space — the same way the other Sci-Fi Labs apps do. That opens a clear path:
+The cube UI already scales cleanly into 3D space — the same way the other Sci-Fi Labs spatial web apps do. That opens a clear path:
 
 - **Multiple cubes in one environment** — several instruments floating together, all staying in sync, so you can build full songs by arranging cubes rather than tracks.
 - **Publishable cubes** — a cube becomes a distribution unit. You can publish a single stem (just the vocals, just the brass) or an entire cube (a set of instruments that already work well together).
@@ -157,8 +155,8 @@ musical-cubes/
 
 ## Topics
 
-`music` · `music-production` · `sci-fi-labs`
+`spatial-web` · `spatial-apps` · `music` · `music-production` · `sci-fi-labs`
 
 ---
 
-**Built by** [Paul Visciano](https://paulvisciano.vercel.app/) · **Sci-Fi Labs**
+**Built by** [Paul Visciano](https://paulvisciano.com/) · **Sci-Fi Labs**
