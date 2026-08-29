@@ -61,6 +61,28 @@ The same cube is how you share music with others and have fun together. Post you
 
 ---
 
+## The Sci-Fi Labs stack
+
+Musical Cubes sits inside a broader vision of personal, private, spatial computing. The pieces fit together like this:
+
+### Air-gap layer (private data)
+
+Sensitive information lives on an external hard drive — photos, conversations, financial statements, medical records, any files you consider private. You write them to the drive, then disconnect it. When it's unplugged, the AI has no access. Plug it back in and the data loads into your local **knowledge graph**. You browse everything by talking to your own local AI — no cloud, no third party, no standing access.
+
+This is the foundation: your data is yours, physically, and the AI only sees what you choose to connect.
+
+### Public layer (creativity and sharing)
+
+On top of that private foundation, apps become the public face — places to create, share, and earn. **Where's Paul** is one example of what a public user interface can look like: a personal life-story layer that unleashes creativity and becomes your own social media, published on your own domain.
+
+**Musical Cubes** is another: the cube as instrument, marketplace, and social layer for music. People publish their own apps as ordinary websites instead of depending on platform stores or centralized services.
+
+### A new era of computing with AI
+
+The pattern is the same across the stack — private data stays air-gapped and local, public creativity runs as simple web apps you own and publish yourself. No app-store gatekeepers, no cloud landlord. Just your machine, your domain, and the tools you build.
+
+---
+
 ## Architecture (high level)
 
 | Layer | What runs |
