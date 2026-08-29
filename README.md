@@ -43,6 +43,22 @@ A musician records a vocal or an instrument stem and publishes it. Someone else 
 
 Compensation and credit are baked into the ecosystem, not added later. The instrument becomes the package, and the package carries both the music and the value.
 
+### The cube as a unit of ownership
+
+Every side of the cube is a sample. You can publish a single side — one vocal line, one guitar riff, one drum loop — or publish the entire cube as a finished arrangement. That choice is the core of the model:
+
+- A beginner drops one strong vocal and still earns every time it gets used.
+- A producer ships a complete, coherent arrangement as a single object others can build on.
+- The cube stops being a file format and becomes a **unit of ownership** — the thing that carries attribution, credit, and the royalty chain.
+
+### The remix loop
+
+A vocal cube gets stacked into a beat. That beat becomes a new cube. The original artist still earns on every downstream use. It's sampling with a royalty chain instead of a dead end — each remix inherits the lineage of the stems it contains, so credit and payment flow back to the performers automatically.
+
+### Distribution and fun
+
+The same cube is how you share music with others and have fun together. Post your vocals or an instrument you play, let others build cubes out of them, and the ecosystem grows from real performances rather than isolated files. It's a redesign of today's complicated sound-editing apps: the interface is the cube, the marketplace is the cube, and the social layer is the cube.
+
 ---
 
 ## Architecture (high level)
