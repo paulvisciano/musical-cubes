@@ -36,6 +36,7 @@ The cube UI already scales cleanly into 3D space — the same way the other Sci-
 - **Multiple cubes in one environment** — several instruments floating together, all staying in sync, so you can build full songs by arranging cubes rather than tracks.
 - **Publishable cubes** — a cube becomes a distribution unit. You can publish a single stem (just the vocals, just the brass) or an entire cube (a set of instruments that already work well together).
 - **A sample marketplace built around relationships** — inspired by tools like Splice, but oriented around coherent musical packages instead of isolated files. Buy a vocal and drop it onto any cube, or buy a full cube and start playing immediately.
+- **Native on an OS you own** — the same app runs as a website and as a native client on Omarchy, so you control the desktop and the instrument.
 
 The broader goal is to empower creators. Today artists often earn the least while labels and platforms take most of the revenue and own the rights. Musical Cubes is designed to cut out those middlemen so listeners and other creators can pay artists directly.
 
@@ -59,27 +60,29 @@ A vocal cube gets stacked into a beat. That beat becomes a new cube. The origina
 
 The same cube is how you share music with others and have fun together. Post your vocals or an instrument you play, let others build cubes out of them, and the ecosystem grows from real performances rather than isolated files. It's a redesign of today's complicated sound-editing apps: the interface is the cube, the marketplace is the cube, and the social layer is the cube.
 
+A cube made on the road can drop onto [Where is Paul?](https://paulvisciano.com/apps/where-is-paul/) at the place it was recorded. Public creativity and private memory sit on the same timeline.
+
 ---
 
 ## The Sci-Fi Labs stack
 
-Musical Cubes sits inside a broader vision of personal, private, spatial computing. The pieces fit together like this:
+Musical Cubes sits inside a broader vision of personal, private, spatial computing. You own the OS, the apps, and the data.
+
+### OS you control
+
+The target desktop is [Omarchy](https://omarchy.org/) — Arch Linux, Hyprland, agents as first-class tools. Install it, customize it, run Musical Cubes natively instead of renting a desktop from an app store.
 
 ### Air-gap layer (private data)
 
-Sensitive information lives on an external hard drive — photos, conversations, financial statements, medical records, any files you consider private. You write them to the drive, then disconnect it. When it's unplugged, the AI has no access. Plug it back in and the data loads into your local **knowledge graph**. You browse everything by talking to your own local AI — no cloud, no third party, no standing access.
-
-This is the foundation: your data is yours, physically, and the AI only sees what you choose to connect.
+Sensitive information lives on an external hard drive — photos, conversations, financial statements, medical records, any files you consider private. You write them to the drive, then disconnect it. When it's unplugged, the AI has no access. Plug it back in and the data loads into your local **knowledge graph**. That graph is the file browser: you talk to your files instead of hunting folders. No cloud, no third party, no standing access.
 
 ### Public layer (creativity and sharing)
 
-On top of that private foundation, apps become the public face — places to create, share, and earn. **Where's Paul** is one example of what a public user interface can look like: a personal life-story layer that unleashes creativity and becomes your own social media, published on your own domain.
-
-**Musical Cubes** is another: the cube as instrument, marketplace, and social layer for music. People publish their own apps as ordinary websites instead of depending on platform stores or centralized services.
+On top of that private foundation, apps become the public face. **Where's Paul** is the life-story layer. **Musical Cubes** is the music layer. People publish their own apps as ordinary websites instead of depending on platform stores.
 
 ### A new era of computing with AI
 
-The pattern is the same across the stack — private data stays air-gapped and local, public creativity runs as simple web apps you own and publish yourself. No app-store gatekeepers, no cloud landlord. Just your machine, your domain, and the tools you build.
+Private data stays air-gapped and local. Public creativity runs as simple web apps you own. The OS is yours. The apps are open source. That is the whole pitch.
 
 ---
 
