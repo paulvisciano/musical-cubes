@@ -33,7 +33,7 @@ export const CubeSide: React.FC<SideOptions> = ({ id, size, enableLoop = true, e
     const handleWSMount = useCallback(
         (waveSurfer: any) => {
             wavesurferRef.current = waveSurfer;
-            wavesurferRef.current?.load(`${process.env.PUBLIC_URL}${sound}`);
+            wavesurferRef.current?.load(sound.startsWith('http') ? sound : `${process.env.PUBLIC_URL}${sound}`);
         }, [sound]);
 
     const onClick = (playing: boolean) => {

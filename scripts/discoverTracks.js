@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const tracksPath = './public/assets/sounds/musicalCube/tracks';
 const outputPath = path.resolve("./src/pages/realms/musicalCubes/tracks.ts")
+const r2BaseUrl = 'https://pub-7236cb2f994c4bdeba84ae4920d69b30.r2.dev/sounds';
 
 //https://gist.github.com/kethinov/6658166
 const getFilePaths = (folderPath) => {
@@ -18,7 +19,7 @@ const getSoundsForTrack = (trackName, trackFolderPath) => {
   const formatFileList = (fileList) => `
       { 
         name : "${trackName}",
-        sounds : [${fileList.map(filepath => `"${filepath.replace('public/', '/')}"`)}]
+        sounds : [${fileList.map(filepath => `"${r2BaseUrl}${filepath.replace('public/assets/sounds/musicalCube', '')}"`)}]
       }`;
 
   return formatFileList(fileList);
